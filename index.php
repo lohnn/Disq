@@ -5,7 +5,7 @@
     </head>
     <body>
         <?php
-        // put your code here
+        header("Location: example1.html");
         ?>
     </body>
 </html>

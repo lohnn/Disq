@@ -470,7 +470,7 @@ function init(){
     rgraph.compute('end');
     rgraph.fx.animate({
       modes:['polar'],
-      duration: 1250
+      duration: 2000
     });
     //end
     //append information about the root relations in the right column
