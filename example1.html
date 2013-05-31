@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link rel="shortcut icon" href="css/images/ikon.ico" type="image/x-icon">
+        <title>Now playing: League of Legends</title>
+        <!-- CSS Files -->
+        <link type="text/css" href="css/base.css" rel="stylesheet" />
+        <link type="text/css" href="css/RGraph.css" rel="stylesheet" />
+        <!--[if IE]><script language="javascript" type="text/javascript" src="../../Extras/excanvas.js"></script><![endif]-->
+        <!-- JIT Library File -->
+        <script type="text/javascript" src="Jit/jit.js"></script>
+        <script type="text/javascript" src="js/example1.js"></script>
+        <script type="text/javascript" src="js/functions.js"></script>
+        <script type="text/javascript" src="js/listeners.js"></script>
+    </head>
+    <body onload="init(); initiate();">
+        <!--<body>-->
+        <!-- Pre load all images used -->
+        <div id="preloader" style="position: absolute; visibility: hidden; display: none;">
+            <img src="css/images/Pause.png" width="0" height="0" />
+            <img src="css/images/Play.png" width="0" height="0" />
+        </div>
+        <!-- Pre loading done -->
+        <div id="infovis"></div>
+        <div id="log"></div>
+        <div id="searchDiv">
+            <button type="button">
+                <button id="searchButton" ></button>
+            </button>
+            <input id="searchField" type="text" />
+            <img src="css/images/cross.png" alt="empty searchField" id="emptySearchField" />
+        </div>
+        <div id="topInfo">
+            Now playing: League of Legends
+        </div>
+        <div id="changeSongWrapper">
+            <button type="button" id="backButton">
+                <img src="css/images/forward - small.png" width="-50" alt="back" />
+            </button>
+            <button type="button" id="forwardButton">
+                forward
+            </button>
+        </div>
+        <div id="coverArtWrapper">
+            <button type="button" id="coverArt"></button>
+            <button type="button" id="playPauseWrapper">
+                <div id="playPauseButton"></div>
+            </button>
+        </div>
+    </body>
+</html>
